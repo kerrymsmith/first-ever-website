@@ -1,0 +1,133 @@
+body{
+    margin:0 auto;
+}
+/* nav bar styles */
+.navbar{
+    height:100px;
+    width:100%;
+    background-color:#83181A; /* owlette red */
+    position:fixed;
+    top:0;
+    z-index:1;
+}
+.logo{
+    height:100px;
+    width:100px;
+    margin-left:40px;
+    /*float:left;*/
+}
+.navlist{
+    float:right;
+    right:20px;
+    font-size:20px;
+    margin-right:40px;
+    font-variant:small-caps;
+}
+.list-item{
+    float:left;
+    list-style-type:none;
+    padding:10px;
+    font-family:'Baloo Chettan', cursive;
+}
+.list-item a{
+    text-decoration:none;
+    color:#EC4C4C;
+}
+.list-item a:hover{
+    color:#5A9CDB;
+    text-shadow:1.5px 1.5px #368E42;
+}
+/* end of nav */
+.hero{
+    background-image:url('../img/bday.JPG');
+    background-size:100%;
+    height:800px;
+    /*width:100%;*/
+    position:relative;
+    background-repeat:no-repeat;
+    top:100px;
+}
+.herobox{
+    background-color:#5A9CDB; /* catboy */
+    height:100px;
+    width:450px;
+    position:absolute;
+    top:50px;
+    left:100px;
+    margin:0 auto;
+    text-align:center;
+    text-decoration: inherit;
+    border:3px solid #E0506B;
+}
+h1{
+    color:#368E42; /* gecko */
+    margin-top:27px;
+    font-family:'Baloo Chettan', cursive;
+}
+/* end of hero */
+.content{
+    height:1200px;
+    width:100%;
+    background-color:#E0506B; /* owlette pink */
+    margin-top:100px;
+}
+.peace, .content-text{
+    height:1100px;
+    width:48%;
+    margin-top:25px;
+}
+.peace{
+    border:6px dotted #151E57;
+    float:left;
+    margin-left:10px;
+}
+.content-text{
+    border:6px dotted #3A8039;
+    float:right;
+    margin-right:10px;
+    font-size:40px;
+    text-align:justify;
+    font-variant:small-caps;
+    font-family:'Raleway', sans-serif;
+    line-height:200%;
+}
+/* end of section */
+.footer{
+    height:100px;
+    width:100%;
+    background-color:#83181A;
+}
+.footer-col{
+    height:70px;
+    width:33%;
+    float:left;
+    margin-top:25px;
+    text-align: center;
+    font-family:'Baloo Chettan', cursive;
+}
+button{
+    height:20px;
+    width:80px;
+    border-radius:25px;
+    margin-top:15px;
+    font-family:'Baloo Chettan', cursive;
+}
+.fab{
+    margin:20px;
+    margin-top:15px;
+}
+.fa-facebook{
+    font-size:25px;
+    color:#3B5998;
+}
+.fa-instagram{
+    font-size:25px;
+    color:#231F20;
+}
+.fa-twitter-square{
+    font-size:25px;
+    color:#1DA1F2;
+}
+/*.custom:hover{*/
+/*    cursor: url('heart.png'), auto;*/
+/*}*/
